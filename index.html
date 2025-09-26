@@ -4,11 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Git Demo Home</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+            font-family: 'Segoe UI', 'Arial', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        main {
+            background: rgba(255,255,255,0.95);
+            border-radius: 24px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
+            padding: 48px 40px 40px 40px;
+            text-align: center;
+            max-width: 400px;
+        }
+        h1 {
+            font-size: 2.8rem;
+            color: #3a3a3a;
+            margin-bottom: 0.5em;
+            letter-spacing: 2px;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #5a5a5a;
+            margin-bottom: 2em;
+        }
+        .btn {
+            display: inline-block;
+            padding: 0.75em 2em;
+            background: linear-gradient(90deg, #74ebd5 0%, #ACB6E5 100%);
+            color: #fff;
+            border: none;
+            border-radius: 30px;
+            font-size: 1rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+            box-shadow: 0 2px 8px rgba(44, 62, 80, 0.12);
+            cursor: pointer;
+            transition: background 0.3s, transform 0.2s;
+            text-decoration: none;
+        }
+        .btn:hover {
+            background: linear-gradient(90deg, #ACB6E5 0%, #74ebd5 100%);
+            transform: translateY(-2px) scale(1.04);
+        }
+        @media (max-width: 500px) {
+            main {
+                padding: 24px 10px 20px 10px;
+                max-width: 95vw;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
 </head>
 <body>
     <main>
-        <h1>Welcome</h1>
-        <p>This is a sample accessible page.</p>
+        <h1>👋 Welcome!</h1>
+        <p>欢迎来到 <strong>Git Demo</strong>，这是一个精美且易用的演示主页。</p>
+        <a href="https://github.com/" class="btn" target="_blank" rel="noopener">访问 GitHub</a>
     </main>
 </body>
 </html>
